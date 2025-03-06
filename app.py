@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.write("Hello world")
+pg = st.navigation([st.Page("page_1.py")])
+pg.run()
